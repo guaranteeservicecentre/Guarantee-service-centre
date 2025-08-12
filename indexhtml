@@ -2,85 +2,52 @@
 <html lang="ml">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Guarantee Service Centre — Karamana, Thiruvananthapuram</title>
-  <meta name="description" content="Guarantee Service Centre — Washing machine service & repair near Govt HSS Karamana. Contact +91 9495945495" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guarantee Service Centre - Karamana</title>
+  <meta name="description" content="Guarantee Service Centre - Washing Machine Service, Karamana" />
   <style>
-    :root{--accent:#c68a00;--bg:#fffaf0;--card:#ffffff;--muted:#5b5b5b}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans",Arial;background:var(--bg);color:#222}
-    header{background:linear-gradient(90deg,#ffd24d,#c68a00);padding:22px 16px;text-align:center}
-    header img{width:120px;height:120px;object-fit:cover;border-radius:12px;border:4px solid rgba(255,255,255,0.45);background:#fff}
-    h1{margin:12px 0 4px;font-size:20px}
-    p.lead{margin:0;color:var(--muted)}
-    .wrap{max-width:920px;margin:20px auto;padding:0 16px}
-    .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);margin-bottom:14px}
-    .grid{display:grid;grid-template-columns:1fr 320px;gap:12px;align-items:start}
-    .services ul{padding-left:18px;margin:8px 0;color:var(--muted)}
-    .contact a{display:inline-block;margin:8px 8px 0 0;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
-    .btn-phone{background:#1b6b1b;color:#fff}
-    .btn-wa{background:#25D366;color:#fff}
-    footer{padding:14px;text-align:center;color:var(--muted);font-size:14px;margin-top:8px}
-    @media(max-width:800px){.grid{grid-template-columns:1fr} header img{width:100px;height:100px}}
+    :root {
+      --accent: #c68a00;
+      --bg: #fffaf0;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); }
+    header {
+      background: linear-gradient(90deg, var(--accent), #ffcc00);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 1.5em;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
   </style>
 </head>
 <body>
   <header>
-    <!-- After upload, GitHub will serve logo.jpeg from repo root -->
-    <img src="logo.jpeg" alt="Guarantee Service Centre Logo" />
-    <h1>Guarantee Service Centre</h1>
-    <p class="lead">വാഷിംഗ് മെഷീൻ സർവീസ് — Govt HSS, Karamana, Thiruvananthapuram</p>
+    Guarantee Service Centre - Karamana
   </header>
-
-  <main class="wrap">
-    <div class="grid">
-      <div class="card">
-        <h2>ഞങ്ങളെ ബന്ധപ്പെടുക</h2>
-        <p class="lead">വേഗം വരുന്ന same-day repairs; Godrej, LG, Samsung, IFB മുതലായവയുടെ diagnostics & repairs.</p>
-
-        <div class="contact" style="margin-top:12px">
-          <a class="btn-phone contact-btn" href="tel:+919495945495">📞 ഫോൺ: +91 9495945495</a>
-          <a class="btn-wa contact-btn" href="https://wa.me/919495945495" target="_blank" rel="noopener">💬 WhatsApp</a>
-        </div>
-
-        <section style="margin-top:14px">
-          <h3>സേവനങ്ങൾ (അന്ത്യം)</h3>
-          <ul>
-            <li>Diagnostic & error-code check (₹200)</li>
-            <li>Motor repair / replacement</li>
-            <li>PCB repair / replacement</li>
-            <li>Drum bearing / seal repair</li>
-            <li>On-site repair & same-day service (availability subject to parts)</li>
-          </ul>
-        </section>
-
-        <section style="margin-top:8px">
-          <h3>ഞങ്ങളുടെ വാഗ്ദാനം</h3>
-          <ul>
-            <li>Original / quality spare parts</li>
-            <li>Trained technicians — Godrej WF EON 600 PAEC experience</li>
-            <li>Transparent estimates & billing</li>
-          </ul>
-        </section>
-      </div>
-
-      <aside class="card">
-        <h3>വിലാസം</h3>
-        <p>Govt HSS, Karamana, Thiruvananthapuram, Kerala — 695002</p>
-        <h3 style="margin-top:12px">Booking</h3>
-        <p>മൊബൈൽ-അല്ലെങ്കിൽ WhatsApp വഴി booking അയച്ചു തരൂ; ഞങ്ങൾ ഉടൻ വിളിച്ച് സമയത്തെ സ്ഥിരീകരിക്കും.</p>
-      </aside>
-    </div>
-
-    <div class="card" style="text-align:center;margin-top:12px">
-      <small style="color:var(--muted)">Site created for Guarantee Service Centre — use the GitHub Pages URL to share this page publicly.</small>
-    </div>
+  <main>
+    <h1>വാഷിംഗ് മെഷീൻ സർവീസ് & റിപ്പെയർ</h1>
+    <p>Godrej, LG, Samsung, Whirlpool ഉൾപ്പെടെ എല്ലാ ബ്രാൻഡുകൾക്കും വിദഗ്ധ സർവീസ്.</p>
+    <a href="https://wa.me/919645262856" target="_blank" class="whatsapp-btn">
+      📞 WhatsApp വഴി ബന്ധപ്പെടുക
+    </a>
   </main>
-
-  <footer>
-    © <span id="y"></span> Guarantee Service Centre — "The Name is Enough"
-  </footer>
-
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
